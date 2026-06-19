@@ -1,0 +1,87 @@
+{"timestamp": "2026-06-18T18:33:32.030820Z", "level": "INFO", "job": "weekly_summary", "message": "============================================================"}
+{"timestamp": "2026-06-18T18:33:32.030924Z", "level": "INFO", "job": "weekly_summary", "message": "Weekly Summary Report - Starting"}
+{"timestamp": "2026-06-18T18:33:32.030975Z", "level": "INFO", "job": "weekly_summary", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-18T18:33:32.031017Z", "level": "INFO", "job": "weekly_summary", "message": "============================================================"}
+{"timestamp": "2026-06-18T18:33:32.031058Z", "level": "INFO", "job": "weekly_summary", "message": "Step 1: Fetching risks from GUS..."}
+{"timestamp": "2026-06-18T18:33:33.362026Z", "level": "INFO", "job": "weekly_summary", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T18:33:33.362151Z", "level": "INFO", "job": "weekly_summary", "message": "Step 2: Analyzing..."}
+{"timestamp": "2026-06-18T18:33:33.389287Z", "level": "INFO", "job": "weekly_summary", "message": "Step 3: Calculating weekly changes..."}
+{"timestamp": "2026-06-18T18:33:33.389810Z", "level": "INFO", "job": "weekly_summary", "message": "  Closed this week: 0"}
+{"timestamp": "2026-06-18T18:33:33.389874Z", "level": "INFO", "job": "weekly_summary", "message": "  New this week: 0"}
+{"timestamp": "2026-06-18T18:33:33.389925Z", "level": "INFO", "job": "weekly_summary", "message": "Step 4: Saving snapshot..."}
+{"timestamp": "2026-06-18T18:33:33.392680Z", "level": "INFO", "job": "weekly_summary", "message": "Step 5: Delivering weekly summary..."}
+{"timestamp": "2026-06-18T18:33:33.393220Z", "level": "INFO", "job": "weekly_summary", "message": "  Delivery: Sent: 1, Skipped (dedup): 0, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-18T18:33:33.393318Z", "level": "INFO", "job": "weekly_summary", "message": "JOB_METRICS: {\"job\": \"weekly_summary\", \"mode\": \"dry_run\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"newly_closed\": 0, \"newly_added\": 0, \"result\": \"success\", \"duration_seconds\": 1.36, \"finished_at\": \"2026-06-18T18:33:33.393248Z\"}"}
+{"timestamp": "2026-06-18T18:33:33.393373Z", "level": "INFO", "job": "weekly_summary", "message": "Job completed in 1.4s"}
+{"timestamp": "2026-06-18T21:14:18.536873Z", "level": "INFO", "job": "weekly_summary", "message": "============================================================"}
+{"timestamp": "2026-06-18T21:14:18.536952Z", "level": "INFO", "job": "weekly_summary", "message": "Weekly Summary Report - Starting"}
+{"timestamp": "2026-06-18T21:14:18.536998Z", "level": "INFO", "job": "weekly_summary", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-18T21:14:18.537039Z", "level": "INFO", "job": "weekly_summary", "message": "============================================================"}
+{"timestamp": "2026-06-18T21:14:18.537079Z", "level": "INFO", "job": "weekly_summary", "message": "Step 1: Fetching risks from GUS..."}
+{"timestamp": "2026-06-18T21:14:19.839144Z", "level": "INFO", "job": "weekly_summary", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T21:14:19.839279Z", "level": "INFO", "job": "weekly_summary", "message": "Step 2: Saving snapshot..."}
+{"timestamp": "2026-06-18T21:14:19.842720Z", "level": "INFO", "job": "weekly_summary", "message": "Step 3: Computing metrics..."}
+{"timestamp": "2026-06-18T21:14:19.844940Z", "level": "INFO", "job": "weekly_summary", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T21:14:19.845018Z", "level": "INFO", "job": "weekly_summary", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T21:14:19.845088Z", "level": "INFO", "job": "weekly_summary", "message": "  Closed this week: 0"}
+{"timestamp": "2026-06-18T21:14:19.845159Z", "level": "INFO", "job": "weekly_summary", "message": "  New this week: 0"}
+{"timestamp": "2026-06-18T21:14:19.845228Z", "level": "INFO", "job": "weekly_summary", "message": "  Burndown points: 1"}
+{"timestamp": "2026-06-18T21:14:19.845296Z", "level": "INFO", "job": "weekly_summary", "message": "Step 4: Generating report..."}
+{"timestamp": "2026-06-18T21:14:19.845432Z", "level": "INFO", "job": "weekly_summary", "message": "Step 5: Delivering weekly summary..."}
+{"timestamp": "2026-06-18T21:14:19.845580Z", "level": "INFO", "job": "weekly_summary", "message": "  Delivery: success"}
+{"timestamp": "2026-06-18T21:14:19.845686Z", "level": "INFO", "job": "weekly_summary", "message": "JOB_METRICS: {\"job\": \"weekly_summary\", \"mode\": \"dry_run\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"newly_closed\": 0, \"newly_added\": 0, \"avg_velocity\": \"0.0/week\", \"result\": \"success\", \"duration_seconds\": 1.31, \"finished_at\": \"2026-06-18T21:14:19.845605Z\"}"}
+{"timestamp": "2026-06-18T21:14:19.845753Z", "level": "INFO", "job": "weekly_summary", "message": "Job completed in 1.3s"}
+{"timestamp": "2026-06-18T21:38:39.029899Z", "level": "INFO", "job": "weekly_summary", "message": "============================================================"}
+{"timestamp": "2026-06-18T21:38:39.029979Z", "level": "INFO", "job": "weekly_summary", "message": "Weekly Summary Report - Starting"}
+{"timestamp": "2026-06-18T21:38:39.030027Z", "level": "INFO", "job": "weekly_summary", "message": "Mode: LIVE"}
+{"timestamp": "2026-06-18T21:38:39.030068Z", "level": "INFO", "job": "weekly_summary", "message": "============================================================"}
+{"timestamp": "2026-06-18T21:38:39.030112Z", "level": "INFO", "job": "weekly_summary", "message": "Step 1: Fetching risks from GUS..."}
+{"timestamp": "2026-06-18T21:38:40.335992Z", "level": "INFO", "job": "weekly_summary", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T21:38:40.336093Z", "level": "INFO", "job": "weekly_summary", "message": "Step 2: Saving snapshot..."}
+{"timestamp": "2026-06-18T21:38:40.338100Z", "level": "INFO", "job": "weekly_summary", "message": "Step 3: Computing metrics..."}
+{"timestamp": "2026-06-18T21:38:40.339424Z", "level": "INFO", "job": "weekly_summary", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T21:38:40.339474Z", "level": "INFO", "job": "weekly_summary", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T21:38:40.339517Z", "level": "INFO", "job": "weekly_summary", "message": "  Closed this week: 0"}
+{"timestamp": "2026-06-18T21:38:40.339562Z", "level": "INFO", "job": "weekly_summary", "message": "  New this week: 0"}
+{"timestamp": "2026-06-18T21:38:40.339603Z", "level": "INFO", "job": "weekly_summary", "message": "  Burndown points: 1"}
+{"timestamp": "2026-06-18T21:38:40.339641Z", "level": "INFO", "job": "weekly_summary", "message": "Step 4: Generating report..."}
+{"timestamp": "2026-06-18T21:38:40.339723Z", "level": "INFO", "job": "weekly_summary", "message": "Step 5: Delivering weekly summary..."}
+{"timestamp": "2026-06-18T21:38:43.803069Z", "level": "INFO", "job": "weekly_summary", "message": "  Delivery: success"}
+{"timestamp": "2026-06-18T21:38:43.803205Z", "level": "INFO", "job": "weekly_summary", "message": "JOB_METRICS: {\"job\": \"weekly_summary\", \"mode\": \"live\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"newly_closed\": 0, \"newly_added\": 0, \"avg_velocity\": \"0.0/week\", \"result\": \"success\", \"duration_seconds\": 4.77, \"finished_at\": \"2026-06-18T21:38:43.803145Z\"}"}
+{"timestamp": "2026-06-18T21:38:43.803261Z", "level": "INFO", "job": "weekly_summary", "message": "Job completed in 4.8s"}
+{"timestamp": "2026-06-18T21:41:02.084160Z", "level": "INFO", "job": "weekly_summary", "message": "============================================================"}
+{"timestamp": "2026-06-18T21:41:02.084251Z", "level": "INFO", "job": "weekly_summary", "message": "Weekly Summary Report - Starting"}
+{"timestamp": "2026-06-18T21:41:02.084298Z", "level": "INFO", "job": "weekly_summary", "message": "Mode: LIVE"}
+{"timestamp": "2026-06-18T21:41:02.084342Z", "level": "INFO", "job": "weekly_summary", "message": "============================================================"}
+{"timestamp": "2026-06-18T21:41:02.084382Z", "level": "INFO", "job": "weekly_summary", "message": "Step 1: Fetching risks from GUS..."}
+{"timestamp": "2026-06-18T21:41:03.369709Z", "level": "INFO", "job": "weekly_summary", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T21:41:03.369807Z", "level": "INFO", "job": "weekly_summary", "message": "Step 2: Saving snapshot..."}
+{"timestamp": "2026-06-18T21:41:03.372004Z", "level": "INFO", "job": "weekly_summary", "message": "Step 3: Computing metrics..."}
+{"timestamp": "2026-06-18T21:41:03.373432Z", "level": "INFO", "job": "weekly_summary", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T21:41:03.373480Z", "level": "INFO", "job": "weekly_summary", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T21:41:03.373522Z", "level": "INFO", "job": "weekly_summary", "message": "  Closed this week: 0"}
+{"timestamp": "2026-06-18T21:41:03.373564Z", "level": "INFO", "job": "weekly_summary", "message": "  New this week: 0"}
+{"timestamp": "2026-06-18T21:41:03.373604Z", "level": "INFO", "job": "weekly_summary", "message": "  Burndown points: 1"}
+{"timestamp": "2026-06-18T21:41:03.373643Z", "level": "INFO", "job": "weekly_summary", "message": "Step 4: Generating report..."}
+{"timestamp": "2026-06-18T21:41:03.373726Z", "level": "INFO", "job": "weekly_summary", "message": "Step 5: Delivering weekly summary..."}
+{"timestamp": "2026-06-18T21:41:06.795607Z", "level": "INFO", "job": "weekly_summary", "message": "  Delivery: success"}
+{"timestamp": "2026-06-18T21:41:06.795844Z", "level": "INFO", "job": "weekly_summary", "message": "JOB_METRICS: {\"job\": \"weekly_summary\", \"mode\": \"live\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"newly_closed\": 0, \"newly_added\": 0, \"avg_velocity\": \"0.0/week\", \"result\": \"success\", \"duration_seconds\": 4.71, \"finished_at\": \"2026-06-18T21:41:06.795725Z\"}"}
+{"timestamp": "2026-06-18T21:41:06.795958Z", "level": "INFO", "job": "weekly_summary", "message": "Job completed in 4.7s"}
+{"timestamp": "2026-06-18T22:50:17.301440Z", "level": "INFO", "job": "weekly_summary", "message": "============================================================"}
+{"timestamp": "2026-06-18T22:50:17.302572Z", "level": "INFO", "job": "weekly_summary", "message": "Weekly Summary Report - Starting"}
+{"timestamp": "2026-06-18T22:50:17.302622Z", "level": "INFO", "job": "weekly_summary", "message": "Mode: LIVE"}
+{"timestamp": "2026-06-18T22:50:17.302664Z", "level": "INFO", "job": "weekly_summary", "message": "============================================================"}
+{"timestamp": "2026-06-18T22:50:17.302704Z", "level": "INFO", "job": "weekly_summary", "message": "Step 1: Fetching risks from GUS..."}
+{"timestamp": "2026-06-18T22:50:18.616607Z", "level": "INFO", "job": "weekly_summary", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T22:50:18.616730Z", "level": "INFO", "job": "weekly_summary", "message": "Step 2: Saving snapshot..."}
+{"timestamp": "2026-06-18T22:50:18.620159Z", "level": "INFO", "job": "weekly_summary", "message": "Step 3: Computing metrics..."}
+{"timestamp": "2026-06-18T22:50:18.622614Z", "level": "INFO", "job": "weekly_summary", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T22:50:18.622695Z", "level": "INFO", "job": "weekly_summary", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T22:50:18.622763Z", "level": "INFO", "job": "weekly_summary", "message": "  Closed this week: 0"}
+{"timestamp": "2026-06-18T22:50:18.622827Z", "level": "INFO", "job": "weekly_summary", "message": "  New this week: 0"}
+{"timestamp": "2026-06-18T22:50:18.622889Z", "level": "INFO", "job": "weekly_summary", "message": "  Burndown points: 1"}
+{"timestamp": "2026-06-18T22:50:18.622955Z", "level": "INFO", "job": "weekly_summary", "message": "Step 4: Generating report..."}
+{"timestamp": "2026-06-18T22:50:18.623097Z", "level": "INFO", "job": "weekly_summary", "message": "Step 5: Delivering weekly summary..."}
+{"timestamp": "2026-06-18T22:50:22.088122Z", "level": "INFO", "job": "weekly_summary", "message": "  Delivery: success"}
+{"timestamp": "2026-06-18T22:50:22.088565Z", "level": "INFO", "job": "weekly_summary", "message": "JOB_METRICS: {\"job\": \"weekly_summary\", \"mode\": \"live\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"newly_closed\": 0, \"newly_added\": 0, \"avg_velocity\": \"0.0/week\", \"result\": \"success\", \"duration_seconds\": 4.79, \"finished_at\": \"2026-06-18T22:50:22.088387Z\"}"}
+{"timestamp": "2026-06-18T22:50:22.088734Z", "level": "INFO", "job": "weekly_summary", "message": "Job completed in 4.8s"}

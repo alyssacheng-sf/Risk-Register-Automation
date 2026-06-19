@@ -1,0 +1,483 @@
+{"timestamp": "2026-06-18T18:31:22.582567Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T18:31:22.582681Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-18T18:31:22.582728Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-18T18:31:22.582769Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-18T18:31:22.582807Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T18:31:22.582845Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-18T18:31:25.200869Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T18:31:25.200982Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-18T18:31:25.223919Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T18:31:25.223994Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T18:31:25.224038Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-18T18:31:25.224080Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-18T18:31:25.236404Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 22, Skipped (dedup): 0, Failed: 0, Risks covered: 184"}
+{"timestamp": "2026-06-18T18:31:25.236476Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 22, \"notifications_skipped\": 0, \"notifications_failed\": 0, \"risks_notified\": 184, \"result\": \"success\", \"duration_seconds\": 2.65, \"finished_at\": \"2026-06-18T18:31:25.236426Z\"}"}
+{"timestamp": "2026-06-18T18:31:25.236522Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 2.7s"}
+{"timestamp": "2026-06-18T18:31:30.663172Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T18:31:30.663260Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-18T18:31:30.663307Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-18T18:31:30.663349Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-18T18:31:30.663387Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T18:31:30.663426Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-18T18:31:33.271110Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T18:31:33.271210Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-18T18:31:33.293737Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T18:31:33.293813Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T18:31:33.293858Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-18T18:31:33.293901Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-18T18:31:33.304587Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-18T18:31:33.304676Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 22, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 2.64, \"finished_at\": \"2026-06-18T18:31:33.304621Z\"}"}
+{"timestamp": "2026-06-18T18:31:33.304720Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 2.6s"}
+{"timestamp": "2026-06-18T21:39:33.069976Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T21:39:33.070057Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-18T21:39:33.070102Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: LIVE"}
+{"timestamp": "2026-06-18T21:39:33.070143Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-18T21:39:33.070185Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T21:39:33.070225Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-18T21:39:35.624573Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T21:39:35.624661Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-18T21:39:35.643112Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T21:39:35.643199Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T21:39:35.643242Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-18T21:39:35.643283Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-18T21:40:42.161744Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 22, Skipped (dedup): 0, Failed: 0, Risks covered: 184"}
+{"timestamp": "2026-06-18T21:40:42.161835Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"live\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 22, \"notifications_skipped\": 0, \"notifications_failed\": 0, \"risks_notified\": 184, \"result\": \"success\", \"duration_seconds\": 69.09, \"finished_at\": \"2026-06-18T21:40:42.161776Z\"}"}
+{"timestamp": "2026-06-18T21:40:42.161888Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 69.1s"}
+{"timestamp": "2026-06-18T22:49:09.588512Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T22:49:09.588596Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-18T22:49:09.588648Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: LIVE"}
+{"timestamp": "2026-06-18T22:49:09.588694Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-18T22:49:09.588739Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T22:49:09.588781Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-18T22:49:12.264476Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T22:49:12.264635Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-18T22:49:12.291125Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T22:49:12.291198Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T22:49:12.291256Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-18T22:49:12.291308Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-18T22:49:12.303058Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-18T22:49:12.303155Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"live\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 22, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 2.71, \"finished_at\": \"2026-06-18T22:49:12.303083Z\"}"}
+{"timestamp": "2026-06-18T22:49:12.303210Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 2.7s"}
+{"timestamp": "2026-06-18T22:49:34.375369Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T22:49:34.375455Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-18T22:49:34.375504Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: LIVE"}
+{"timestamp": "2026-06-18T22:49:34.375547Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-18T22:49:34.375588Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T22:49:34.375628Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-18T22:49:37.026652Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T22:49:37.026723Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-18T22:49:37.048952Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T22:49:37.049031Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T22:49:37.049087Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-18T22:49:37.049279Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-18T22:50:11.166572Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 11, Skipped (dedup): 11, Failed: 0, Risks covered: 92"}
+{"timestamp": "2026-06-18T22:50:11.166690Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"live\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 11, \"notifications_skipped\": 11, \"notifications_failed\": 0, \"risks_notified\": 92, \"result\": \"success\", \"duration_seconds\": 36.79, \"finished_at\": \"2026-06-18T22:50:11.166619Z\"}"}
+{"timestamp": "2026-06-18T22:50:11.166757Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 36.8s"}
+{"timestamp": "2026-06-18T23:54:00.928222Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:54:00.928401Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-18T23:54:00.928467Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-18T23:54:00.928525Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-18T23:54:00.928576Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:54:00.928631Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-18T23:54:00.932402Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-18T23:54:00.932530Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 0.01, \"finished_at\": \"2026-06-18T23:54:00.932442Z\"}"}
+{"timestamp": "2026-06-18T23:54:00.932604Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 0.0s"}
+{"timestamp": "2026-06-18T23:56:01.065351Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:56:01.065463Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-18T23:56:01.065518Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-18T23:56:01.065680Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-18T23:56:01.065748Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:56:01.065809Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-18T23:56:02.538267Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-18T23:56:02.538523Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 1.47, \"finished_at\": \"2026-06-18T23:56:02.538354Z\"}"}
+{"timestamp": "2026-06-18T23:56:02.538663Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 1.5s"}
+{"timestamp": "2026-06-18T23:58:01.117489Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:58:01.117579Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-18T23:58:01.117645Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-18T23:58:01.117702Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-18T23:58:01.117757Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:58:01.117810Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-18T23:58:02.550569Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-18T23:58:02.550887Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 1.43, \"finished_at\": \"2026-06-18T23:58:02.550710Z\"}"}
+{"timestamp": "2026-06-18T23:58:02.551037Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 1.4s"}
+{"timestamp": "2026-06-18T23:58:19.832178Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:58:19.832303Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-18T23:58:19.832353Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-18T23:58:19.832395Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-18T23:58:19.832435Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:58:19.832476Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-18T23:58:22.441444Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T23:58:22.441544Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-18T23:58:22.459187Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T23:58:22.459278Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T23:58:22.459322Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-18T23:58:22.459362Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-18T23:58:22.471026Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 11, Skipped (dedup): 11, Failed: 0, Risks covered: 92"}
+{"timestamp": "2026-06-18T23:58:22.471101Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 11, \"notifications_skipped\": 11, \"notifications_failed\": 0, \"risks_notified\": 92, \"result\": \"success\", \"duration_seconds\": 2.64, \"finished_at\": \"2026-06-18T23:58:22.471053Z\"}"}
+{"timestamp": "2026-06-18T23:58:22.471146Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 2.6s"}
+{"timestamp": "2026-06-18T23:59:36.889106Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:59:36.889190Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-18T23:59:36.889240Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-18T23:59:36.889284Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-18T23:59:36.889325Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:59:36.889365Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-18T23:59:39.528345Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T23:59:39.528422Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-18T23:59:39.550569Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T23:59:39.550648Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T23:59:39.550707Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-18T23:59:39.550763Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-18T23:59:39.563113Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-18T23:59:39.563211Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 22, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 2.67, \"finished_at\": \"2026-06-18T23:59:39.563140Z\"}"}
+{"timestamp": "2026-06-18T23:59:39.563269Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 2.7s"}
+{"timestamp": "2026-06-18T23:59:46.594669Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:59:46.594758Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-18T23:59:46.594809Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-18T23:59:46.594853Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-18T23:59:46.594893Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-18T23:59:46.594932Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-18T23:59:49.197548Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-18T23:59:49.197616Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-18T23:59:49.215590Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-18T23:59:49.215655Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-18T23:59:49.215703Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-18T23:59:49.215749Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-18T23:59:49.227402Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 11, Skipped (dedup): 11, Failed: 0, Risks covered: 92"}
+{"timestamp": "2026-06-18T23:59:49.227483Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 11, \"notifications_skipped\": 11, \"notifications_failed\": 0, \"risks_notified\": 92, \"result\": \"success\", \"duration_seconds\": 2.63, \"finished_at\": \"2026-06-18T23:59:49.227428Z\"}"}
+{"timestamp": "2026-06-18T23:59:49.227530Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 2.6s"}
+{"timestamp": "2026-06-19T00:00:01.194368Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:00:01.194508Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T00:00:01.194574Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T00:00:01.194649Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T00:00:01.194735Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:00:01.194802Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T00:00:02.735972Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-19T00:00:02.736209Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 1.54, \"finished_at\": \"2026-06-19T00:00:02.736049Z\"}"}
+{"timestamp": "2026-06-19T00:00:02.736336Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 1.5s"}
+{"timestamp": "2026-06-19T00:02:01.756319Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:02:01.756439Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T00:02:01.756547Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T00:02:01.756639Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T00:02:01.756708Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:02:01.756824Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T00:02:03.315474Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-19T00:02:03.315978Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 1.56, \"finished_at\": \"2026-06-19T00:02:03.315569Z\"}"}
+{"timestamp": "2026-06-19T00:02:03.316151Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 1.6s"}
+{"timestamp": "2026-06-19T00:04:03.030055Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:04:03.030223Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T00:04:03.030316Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T00:04:03.030398Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T00:04:03.030472Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:04:03.030548Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T00:04:04.551744Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-19T00:04:04.552017Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 1.52, \"finished_at\": \"2026-06-19T00:04:04.551846Z\"}"}
+{"timestamp": "2026-06-19T00:04:04.552175Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 1.5s"}
+{"timestamp": "2026-06-19T00:06:01.522383Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:06:01.522542Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T00:06:01.522634Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T00:06:01.522906Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T00:06:01.523125Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:06:01.523261Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T00:06:03.099360Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-19T00:06:03.099728Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 1.58, \"finished_at\": \"2026-06-19T00:06:03.099457Z\"}"}
+{"timestamp": "2026-06-19T00:06:03.100099Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 1.6s"}
+{"timestamp": "2026-06-19T00:08:00.834133Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:08:00.834455Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T00:08:00.834594Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T00:08:00.834721Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T00:08:00.834821Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:08:00.834906Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T00:08:02.368332Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-19T00:08:02.368557Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 1.54, \"finished_at\": \"2026-06-19T00:08:02.368411Z\"}"}
+{"timestamp": "2026-06-19T00:08:02.368672Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 1.5s"}
+{"timestamp": "2026-06-19T00:58:01.563823Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:58:01.563927Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T00:58:01.564005Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T00:58:01.564104Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T00:58:01.564171Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T00:58:01.564228Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T00:58:03.067487Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-19T00:58:03.067757Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 1.5, \"finished_at\": \"2026-06-19T00:58:03.067580Z\"}"}
+{"timestamp": "2026-06-19T00:58:03.067919Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 1.5s"}
+{"timestamp": "2026-06-19T01:02:42.378192Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:02:42.378362Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T01:02:42.378431Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T01:02:42.378492Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T01:02:42.378550Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:02:42.378605Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T01:02:44.129905Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-19T01:02:44.130065Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 1.75, \"finished_at\": \"2026-06-19T01:02:44.129966Z\"}"}
+{"timestamp": "2026-06-19T01:02:44.130130Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 1.8s"}
+{"timestamp": "2026-06-19T01:04:06.159619Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:04:06.159766Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T01:04:06.159852Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T01:04:06.159926Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T01:04:06.160008Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:04:06.160077Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T01:04:08.703408Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-19T01:04:08.703645Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 2.54, \"finished_at\": \"2026-06-19T01:04:08.703485Z\"}"}
+{"timestamp": "2026-06-19T01:04:08.703759Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 2.5s"}
+{"timestamp": "2026-06-19T01:08:49.038906Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:08:49.039033Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T01:08:49.039094Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T01:08:49.039146Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T01:08:49.039196Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:08:49.039271Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T01:08:50.539949Z", "level": "ERROR", "job": "daily_risk_check", "message": "GUS health check failed \u2014 cannot proceed"}
+{"timestamp": "2026-06-19T01:08:50.540228Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"error\": \"gus_health_check_failed\", \"duration_seconds\": 1.5, \"finished_at\": \"2026-06-19T01:08:50.540043Z\"}"}
+{"timestamp": "2026-06-19T01:08:50.540361Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 1.5s"}
+{"timestamp": "2026-06-19T01:10:03.882647Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:10:03.882773Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T01:10:03.882858Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T01:10:03.882953Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T01:10:03.883007Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:10:03.883057Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T01:10:08.892059Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T01:10:08.892186Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T01:10:08.928085Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T01:10:08.928207Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T01:10:08.928288Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T01:10:08.928375Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T01:10:08.929041Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Run skipped: quiet_hours"}
+{"timestamp": "2026-06-19T01:10:08.929200Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 0, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 5.05, \"finished_at\": \"2026-06-19T01:10:08.929106Z\"}"}
+{"timestamp": "2026-06-19T01:10:08.929279Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.0s"}
+{"timestamp": "2026-06-19T01:12:05.000653Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:12:05.000809Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T01:12:05.001064Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T01:12:05.001243Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T01:12:05.001343Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:12:05.001431Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T01:12:10.257366Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T01:12:10.257587Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T01:12:10.300257Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T01:12:10.300393Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T01:12:10.300497Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T01:12:10.300709Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T01:12:10.301530Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Run skipped: quiet_hours"}
+{"timestamp": "2026-06-19T01:12:10.301706Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 0, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 5.3, \"finished_at\": \"2026-06-19T01:12:10.301581Z\"}"}
+{"timestamp": "2026-06-19T01:12:10.301808Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.3s"}
+{"timestamp": "2026-06-19T01:14:03.465121Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:14:03.465190Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T01:14:03.465236Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T01:14:03.465274Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T01:14:03.465310Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:14:03.465350Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T01:14:08.704498Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T01:14:08.704667Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T01:14:08.744081Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T01:14:08.744205Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T01:14:08.744290Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T01:14:08.744370Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T01:14:08.745277Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Run skipped: quiet_hours"}
+{"timestamp": "2026-06-19T01:14:08.745486Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 0, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 5.28, \"finished_at\": \"2026-06-19T01:14:08.745340Z\"}"}
+{"timestamp": "2026-06-19T01:14:08.745600Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.3s"}
+{"timestamp": "2026-06-19T01:16:04.062765Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:16:04.063029Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T01:16:04.063166Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T01:16:04.063292Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T01:16:04.063415Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:16:04.063535Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T01:16:09.187911Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T01:16:09.188027Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T01:16:09.215119Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T01:16:09.215217Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T01:16:09.215287Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T01:16:09.215350Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T01:16:09.215858Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Run skipped: quiet_hours"}
+{"timestamp": "2026-06-19T01:16:09.215975Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 0, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 5.15, \"finished_at\": \"2026-06-19T01:16:09.215889Z\"}"}
+{"timestamp": "2026-06-19T01:16:09.216145Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.2s"}
+{"timestamp": "2026-06-19T01:18:03.567465Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:18:03.567568Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T01:18:03.567616Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T01:18:03.567663Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T01:18:03.567702Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:18:03.567742Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T01:18:08.601796Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T01:18:08.601869Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T01:18:08.616968Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T01:18:08.617027Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T01:18:08.617073Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T01:18:08.617120Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T01:18:08.617371Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Run skipped: quiet_hours"}
+{"timestamp": "2026-06-19T01:18:08.617485Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 0, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 5.05, \"finished_at\": \"2026-06-19T01:18:08.617402Z\"}"}
+{"timestamp": "2026-06-19T01:18:08.617559Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.1s"}
+{"timestamp": "2026-06-19T01:48:03.944879Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:48:03.945070Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T01:48:03.945190Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T01:48:03.945298Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T01:48:03.945401Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:48:03.945508Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T01:48:08.782834Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T01:48:08.782894Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T01:48:08.822742Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T01:48:08.822900Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T01:48:08.823056Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T01:48:08.823279Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T01:48:08.845843Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 11, Skipped (dedup): 11, Failed: 0, Risks covered: 92"}
+{"timestamp": "2026-06-19T01:48:08.845952Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 11, \"notifications_skipped\": 11, \"notifications_failed\": 0, \"risks_notified\": 92, \"result\": \"success\", \"duration_seconds\": 4.9, \"finished_at\": \"2026-06-19T01:48:08.845871Z\"}"}
+{"timestamp": "2026-06-19T01:48:08.846115Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 4.9s"}
+{"timestamp": "2026-06-19T01:50:04.051556Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:50:04.051776Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T01:50:04.051911Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T01:50:04.052031Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T01:50:04.052143Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:50:04.052257Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T01:50:09.215455Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T01:50:09.215535Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T01:50:09.247327Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T01:50:09.247480Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T01:50:09.247596Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T01:50:09.247698Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T01:50:09.273668Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-19T01:50:09.273905Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 22, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 5.22, \"finished_at\": \"2026-06-19T01:50:09.273721Z\"}"}
+{"timestamp": "2026-06-19T01:50:09.274028Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.2s"}
+{"timestamp": "2026-06-19T01:52:03.441904Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:52:03.442024Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T01:52:03.442097Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T01:52:03.442175Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T01:52:03.442250Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T01:52:03.442323Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T01:52:08.365784Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T01:52:08.366063Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T01:52:08.388195Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T01:52:08.388268Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T01:52:08.388317Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T01:52:08.388363Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T01:52:08.400859Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-19T01:52:08.400950Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 22, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 4.96, \"finished_at\": \"2026-06-19T01:52:08.400885Z\"}"}
+{"timestamp": "2026-06-19T01:52:08.401001Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.0s"}
+{"timestamp": "2026-06-19T02:00:03.829061Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:00:03.829208Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T02:00:03.829278Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T02:00:03.829342Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T02:00:03.829428Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:00:03.829537Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T02:00:09.082841Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T02:00:09.082952Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T02:00:09.111155Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T02:00:09.111269Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T02:00:09.111354Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T02:00:09.111434Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T02:00:09.132909Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 11, Skipped (dedup): 11, Failed: 0, Risks covered: 92"}
+{"timestamp": "2026-06-19T02:00:09.133068Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 11, \"notifications_skipped\": 11, \"notifications_failed\": 0, \"risks_notified\": 92, \"result\": \"success\", \"duration_seconds\": 5.3, \"finished_at\": \"2026-06-19T02:00:09.132961Z\"}"}
+{"timestamp": "2026-06-19T02:00:09.133158Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.3s"}
+{"timestamp": "2026-06-19T02:01:03.186155Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:01:03.186293Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T02:01:03.186358Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T02:01:03.186412Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T02:01:03.186465Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:01:03.186518Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T02:01:08.343801Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T02:01:08.343974Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T02:01:08.387416Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T02:01:08.387580Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T02:01:08.387699Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T02:01:08.387804Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T02:01:08.413681Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-19T02:01:08.413940Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 22, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 5.23, \"finished_at\": \"2026-06-19T02:01:08.413738Z\"}"}
+{"timestamp": "2026-06-19T02:01:08.414055Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.2s"}
+{"timestamp": "2026-06-19T02:02:03.617258Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:02:03.617485Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T02:02:03.617625Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T02:02:03.617740Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T02:02:03.618317Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:02:03.618427Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T02:02:08.754286Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T02:02:08.754398Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T02:02:08.779700Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T02:02:08.779764Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T02:02:08.779811Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T02:02:08.779910Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T02:02:08.794861Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-19T02:02:08.795006Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 22, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 5.18, \"finished_at\": \"2026-06-19T02:02:08.794906Z\"}"}
+{"timestamp": "2026-06-19T02:02:08.795085Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.2s"}
+{"timestamp": "2026-06-19T02:03:03.803113Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:03:03.803351Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T02:03:03.803420Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: DRY RUN"}
+{"timestamp": "2026-06-19T02:03:03.803475Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T02:03:03.803523Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:03:03.803601Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T02:03:08.826763Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T02:03:08.826917Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T02:03:08.850354Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T02:03:08.850414Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T02:03:08.850468Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T02:03:08.850513Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T02:03:08.864336Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-19T02:03:08.864532Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"dry_run\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 22, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 5.08, \"finished_at\": \"2026-06-19T02:03:08.864383Z\"}"}
+{"timestamp": "2026-06-19T02:03:08.864655Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.1s"}
+{"timestamp": "2026-06-19T02:08:03.485783Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:08:03.485892Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T02:08:03.485982Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: LIVE"}
+{"timestamp": "2026-06-19T02:08:03.486076Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T02:08:03.486158Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:08:03.486227Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T02:08:10.082200Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T02:08:10.082255Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T02:08:10.099653Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T02:08:10.099718Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T02:08:10.099766Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T02:08:10.099813Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T02:08:44.283226Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 11, Skipped (dedup): 11, Failed: 0, Risks covered: 92"}
+{"timestamp": "2026-06-19T02:08:44.283333Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"live\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 11, \"notifications_skipped\": 11, \"notifications_failed\": 0, \"risks_notified\": 92, \"result\": \"success\", \"duration_seconds\": 40.8, \"finished_at\": \"2026-06-19T02:08:44.283260Z\"}"}
+{"timestamp": "2026-06-19T02:08:44.283399Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 40.8s"}
+{"timestamp": "2026-06-19T02:09:03.523295Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:09:03.523545Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T02:09:03.523678Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: LIVE"}
+{"timestamp": "2026-06-19T02:09:03.523796Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T02:09:03.523952Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:09:03.524158Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T02:09:08.605758Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T02:09:08.606007Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T02:09:08.631170Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T02:09:08.631265Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T02:09:08.631326Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T02:09:08.631421Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T02:09:08.645522Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-19T02:09:08.645693Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"live\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 22, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 5.12, \"finished_at\": \"2026-06-19T02:09:08.645551Z\"}"}
+{"timestamp": "2026-06-19T02:09:08.645930Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.1s"}
+{"timestamp": "2026-06-19T02:10:03.788421Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:10:03.788503Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T02:10:03.788552Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: LIVE"}
+{"timestamp": "2026-06-19T02:10:03.788596Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T02:10:03.788638Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:10:03.788678Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T02:10:08.827216Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T02:10:08.827376Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T02:10:08.851987Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T02:10:08.852053Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T02:10:08.852108Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T02:10:08.852157Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T02:10:08.867392Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-19T02:10:08.867493Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"live\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 22, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 5.08, \"finished_at\": \"2026-06-19T02:10:08.867418Z\"}"}
+{"timestamp": "2026-06-19T02:10:08.867547Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 5.1s"}
+{"timestamp": "2026-06-19T02:11:03.865120Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:11:03.865240Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T02:11:03.865302Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: LIVE"}
+{"timestamp": "2026-06-19T02:11:03.865356Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T02:11:03.865407Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:11:03.865456Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T02:11:07.888582Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T02:11:07.888659Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T02:11:07.918479Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T02:11:07.918568Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T02:11:07.918631Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T02:11:07.918689Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T02:11:42.082442Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 11, Skipped (dedup): 11, Failed: 0, Risks covered: 92"}
+{"timestamp": "2026-06-19T02:11:42.082576Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"live\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 11, \"notifications_skipped\": 11, \"notifications_failed\": 0, \"risks_notified\": 92, \"result\": \"success\", \"duration_seconds\": 38.22, \"finished_at\": \"2026-06-19T02:11:42.082492Z\"}"}
+{"timestamp": "2026-06-19T02:11:42.082645Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 38.2s"}
+{"timestamp": "2026-06-19T02:12:02.873398Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:12:02.873502Z", "level": "INFO", "job": "daily_risk_check", "message": "Daily Risk Check - Starting"}
+{"timestamp": "2026-06-19T02:12:02.873558Z", "level": "INFO", "job": "daily_risk_check", "message": "Mode: LIVE"}
+{"timestamp": "2026-06-19T02:12:02.873610Z", "level": "INFO", "job": "daily_risk_check", "message": "Target user: alyssa.cheng@salesforce.com"}
+{"timestamp": "2026-06-19T02:12:02.873662Z", "level": "INFO", "job": "daily_risk_check", "message": "============================================================"}
+{"timestamp": "2026-06-19T02:12:02.873732Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 1: Fetching open risks from GUS..."}
+{"timestamp": "2026-06-19T02:12:06.904701Z", "level": "INFO", "job": "daily_risk_check", "message": "  Fetched 92 open risks"}
+{"timestamp": "2026-06-19T02:12:06.904826Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 2: Analyzing risks..."}
+{"timestamp": "2026-06-19T02:12:06.937155Z", "level": "INFO", "job": "daily_risk_check", "message": "  Stale: 92/92"}
+{"timestamp": "2026-06-19T02:12:06.937342Z", "level": "INFO", "job": "daily_risk_check", "message": "  Compliance: 0%"}
+{"timestamp": "2026-06-19T02:12:06.937429Z", "level": "INFO", "job": "daily_risk_check", "message": "  Owners to notify: 11"}
+{"timestamp": "2026-06-19T02:12:06.937504Z", "level": "INFO", "job": "daily_risk_check", "message": "Step 3: Delivering notifications..."}
+{"timestamp": "2026-06-19T02:12:06.957032Z", "level": "INFO", "job": "daily_risk_check", "message": "  Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0"}
+{"timestamp": "2026-06-19T02:12:06.957198Z", "level": "INFO", "job": "daily_risk_check", "message": "JOB_METRICS: {\"job\": \"daily_risk_check\", \"mode\": \"live\", \"target_user\": \"alyssa.cheng@salesforce.com\", \"total_open_risks\": 92, \"total_stale\": 92, \"compliance_rate\": \"0%\", \"owners_to_notify\": 11, \"teams_affected\": 28, \"notifications_sent\": 0, \"notifications_skipped\": 22, \"notifications_failed\": 0, \"risks_notified\": 0, \"result\": \"success\", \"duration_seconds\": 4.08, \"finished_at\": \"2026-06-19T02:12:06.957085Z\"}"}
+{"timestamp": "2026-06-19T02:12:06.957282Z", "level": "INFO", "job": "daily_risk_check", "message": "Job completed in 4.1s"}

@@ -1,0 +1,23 @@
+# Staleness thresholds: days since last review before a risk is "stale"
+# Based on the FY26 Engagement Risk Register dashboard logic
+stale_thresholds:
+  High: 7
+  Medium: 14
+  Low: 30
+  default: 14  # When impact is unknown
+
+# Risk scoring weights (impact x probability)
+score_map:
+  High: 3
+  Medium: 2
+  Low: 1
+
+# Teams in scope for MCE Risk Register
+mce_teams:
+  # These patterns are used in LIKE queries against Team__r.Name
+  patterns:
+    - "%MC %"
+    - "%E360%"
+    - "%Engagement%"
+    - "%SFMC%"
+    - "%JB%"

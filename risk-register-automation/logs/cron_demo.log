@@ -1,0 +1,90 @@
+Successfully authorized alyssa.cheng@gus.com with org ID 00DT0000000DpvcMAC
+/Users/alyssa.cheng/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+19:08:03 ℹ️  ============================================================
+19:08:03 ℹ️  Daily Risk Check - Starting
+19:08:03 ℹ️  Mode: LIVE
+19:08:03 ℹ️  Target user: alyssa.cheng@salesforce.com
+19:08:03 ℹ️  ============================================================
+19:08:03 ℹ️  Step 1: Fetching open risks from GUS...
+19:08:10 ℹ️    Fetched 92 open risks
+19:08:10 ℹ️  Step 2: Analyzing risks...
+19:08:10 ℹ️    Stale: 92/92
+19:08:10 ℹ️    Compliance: 0%
+19:08:10 ℹ️    Owners to notify: 11
+19:08:10 ℹ️  Step 3: Delivering notifications...
+19:08:44 ℹ️    Delivery report: Sent: 11, Skipped (dedup): 11, Failed: 0, Risks covered: 92
+19:08:44 ℹ️  JOB_METRICS: {"job": "daily_risk_check", "mode": "live", "target_user": "alyssa.cheng@salesforce.com", "total_open_risks": 92, "total_stale": 92, "compliance_rate": "0%", "owners_to_notify": 11, "teams_affected": 28, "notifications_sent": 11, "notifications_skipped": 11, "notifications_failed": 0, "risks_notified": 92, "result": "success", "duration_seconds": 40.8, "finished_at": "2026-06-19T02:08:44.283260Z"}
+19:08:44 ℹ️  Job completed in 40.8s
+Successfully authorized alyssa.cheng@gus.com with org ID 00DT0000000DpvcMAC
+/Users/alyssa.cheng/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+19:09:03 ℹ️  ============================================================
+19:09:03 ℹ️  Daily Risk Check - Starting
+19:09:03 ℹ️  Mode: LIVE
+19:09:03 ℹ️  Target user: alyssa.cheng@salesforce.com
+19:09:03 ℹ️  ============================================================
+19:09:03 ℹ️  Step 1: Fetching open risks from GUS...
+19:09:08 ℹ️    Fetched 92 open risks
+19:09:08 ℹ️  Step 2: Analyzing risks...
+19:09:08 ℹ️    Stale: 92/92
+19:09:08 ℹ️    Compliance: 0%
+19:09:08 ℹ️    Owners to notify: 11
+19:09:08 ℹ️  Step 3: Delivering notifications...
+19:09:08 ℹ️    Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0
+19:09:08 ℹ️  JOB_METRICS: {"job": "daily_risk_check", "mode": "live", "target_user": "alyssa.cheng@salesforce.com", "total_open_risks": 92, "total_stale": 92, "compliance_rate": "0%", "owners_to_notify": 11, "teams_affected": 28, "notifications_sent": 0, "notifications_skipped": 22, "notifications_failed": 0, "risks_notified": 0, "result": "success", "duration_seconds": 5.12, "finished_at": "2026-06-19T02:09:08.645551Z"}
+19:09:08 ℹ️  Job completed in 5.1s
+Successfully authorized alyssa.cheng@gus.com with org ID 00DT0000000DpvcMAC
+/Users/alyssa.cheng/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+19:10:03 ℹ️  ============================================================
+19:10:03 ℹ️  Daily Risk Check - Starting
+19:10:03 ℹ️  Mode: LIVE
+19:10:03 ℹ️  Target user: alyssa.cheng@salesforce.com
+19:10:03 ℹ️  ============================================================
+19:10:03 ℹ️  Step 1: Fetching open risks from GUS...
+19:10:08 ℹ️    Fetched 92 open risks
+19:10:08 ℹ️  Step 2: Analyzing risks...
+19:10:08 ℹ️    Stale: 92/92
+19:10:08 ℹ️    Compliance: 0%
+19:10:08 ℹ️    Owners to notify: 11
+19:10:08 ℹ️  Step 3: Delivering notifications...
+19:10:08 ℹ️    Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0
+19:10:08 ℹ️  JOB_METRICS: {"job": "daily_risk_check", "mode": "live", "target_user": "alyssa.cheng@salesforce.com", "total_open_risks": 92, "total_stale": 92, "compliance_rate": "0%", "owners_to_notify": 11, "teams_affected": 28, "notifications_sent": 0, "notifications_skipped": 22, "notifications_failed": 0, "risks_notified": 0, "result": "success", "duration_seconds": 5.08, "finished_at": "2026-06-19T02:10:08.867418Z"}
+19:10:08 ℹ️  Job completed in 5.1s
+Successfully authorized alyssa.cheng@gus.com with org ID 00DT0000000DpvcMAC
+/Users/alyssa.cheng/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+19:11:03 ℹ️  ============================================================
+19:11:03 ℹ️  Daily Risk Check - Starting
+19:11:03 ℹ️  Mode: LIVE
+19:11:03 ℹ️  Target user: alyssa.cheng@salesforce.com
+19:11:03 ℹ️  ============================================================
+19:11:03 ℹ️  Step 1: Fetching open risks from GUS...
+19:11:07 ℹ️    Fetched 92 open risks
+19:11:07 ℹ️  Step 2: Analyzing risks...
+19:11:07 ℹ️    Stale: 92/92
+19:11:07 ℹ️    Compliance: 0%
+19:11:07 ℹ️    Owners to notify: 11
+19:11:07 ℹ️  Step 3: Delivering notifications...
+19:11:42 ℹ️    Delivery report: Sent: 11, Skipped (dedup): 11, Failed: 0, Risks covered: 92
+19:11:42 ℹ️  JOB_METRICS: {"job": "daily_risk_check", "mode": "live", "target_user": "alyssa.cheng@salesforce.com", "total_open_risks": 92, "total_stale": 92, "compliance_rate": "0%", "owners_to_notify": 11, "teams_affected": 28, "notifications_sent": 11, "notifications_skipped": 11, "notifications_failed": 0, "risks_notified": 92, "result": "success", "duration_seconds": 38.22, "finished_at": "2026-06-19T02:11:42.082492Z"}
+19:11:42 ℹ️  Job completed in 38.2s
+Successfully authorized alyssa.cheng@gus.com with org ID 00DT0000000DpvcMAC
+/Users/alyssa.cheng/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+19:12:02 ℹ️  ============================================================
+19:12:02 ℹ️  Daily Risk Check - Starting
+19:12:02 ℹ️  Mode: LIVE
+19:12:02 ℹ️  Target user: alyssa.cheng@salesforce.com
+19:12:02 ℹ️  ============================================================
+19:12:02 ℹ️  Step 1: Fetching open risks from GUS...
+19:12:06 ℹ️    Fetched 92 open risks
+19:12:06 ℹ️  Step 2: Analyzing risks...
+19:12:06 ℹ️    Stale: 92/92
+19:12:06 ℹ️    Compliance: 0%
+19:12:06 ℹ️    Owners to notify: 11
+19:12:06 ℹ️  Step 3: Delivering notifications...
+19:12:06 ℹ️    Delivery report: Sent: 0, Skipped (dedup): 22, Failed: 0, Risks covered: 0
+19:12:06 ℹ️  JOB_METRICS: {"job": "daily_risk_check", "mode": "live", "target_user": "alyssa.cheng@salesforce.com", "total_open_risks": 92, "total_stale": 92, "compliance_rate": "0%", "owners_to_notify": 11, "teams_affected": 28, "notifications_sent": 0, "notifications_skipped": 22, "notifications_failed": 0, "risks_notified": 0, "result": "success", "duration_seconds": 4.08, "finished_at": "2026-06-19T02:12:06.957085Z"}
+19:12:06 ℹ️  Job completed in 4.1s
